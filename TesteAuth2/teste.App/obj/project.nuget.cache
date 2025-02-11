@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I2mWG3eoLsc=",
+  "dgSpecHash": "WezhiMVgUXY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\teste.App.csproj",
+  "projectFilePath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\teste.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabriel.garcia\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\gabriel.garcia\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",

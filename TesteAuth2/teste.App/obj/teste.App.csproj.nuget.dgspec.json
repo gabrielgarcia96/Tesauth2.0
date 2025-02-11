@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\teste.App.csproj": {}
+    "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\teste.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Application\\teste.Application.csproj": {
+    "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\teste.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Application\\teste.Application.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\teste.Application.csproj",
         "projectName": "teste.Application",
-        "projectPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Application\\teste.Application.csproj",
+        "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\teste.Application.csproj",
         "packagesPath": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Application\\obj\\",
+        "outputPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Domain\\teste.Domain.csproj": {
-                "projectPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Domain\\teste.Domain.csproj"
+              "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj": {
+                "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj"
               },
-              "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj"
+              "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\teste.App.csproj": {
+    "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\teste.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\teste.App.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\teste.App.csproj",
         "projectName": "teste.App",
-        "projectPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\teste.App.csproj",
+        "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\teste.App.csproj",
         "packagesPath": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\",
+        "outputPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -110,14 +110,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Application\\teste.Application.csproj": {
-                "projectPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Application\\teste.Application.csproj"
+              "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\teste.Application.csproj": {
+                "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\teste.Application.csproj"
               },
-              "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Domain\\teste.Domain.csproj": {
-                "projectPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Domain\\teste.Domain.csproj"
+              "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj": {
+                "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj"
               },
-              "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj"
+              "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj"
               }
             }
           }
@@ -170,14 +170,14 @@
         }
       }
     },
-    "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Domain\\teste.Domain.csproj": {
+    "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Domain\\teste.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj",
         "projectName": "teste.Domain",
-        "projectPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Domain\\teste.Domain.csproj",
+        "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj",
         "packagesPath": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Domain\\obj\\",
+        "outputPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -241,14 +241,14 @@
         }
       }
     },
-    "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj": {
+    "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj",
         "projectName": "teste.Infrastructure",
-        "projectPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -269,8 +269,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Domain\\teste.Domain.csproj": {
-                "projectPath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Domain\\teste.Domain.csproj"
+              "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj": {
+                "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj"
               }
             }
           }

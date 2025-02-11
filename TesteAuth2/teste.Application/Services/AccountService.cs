@@ -48,7 +48,7 @@ public class AccountService : IAccountService
             Username = registerDto.Username,
             Email = registerDto.Email,
             Password = BCrypt.Net.BCrypt.HashPassword(registerDto.Password),
-            Roles =  registerDto.Roles
+            Roles =  Role.User
 
         };
 
@@ -79,6 +79,11 @@ public class AccountService : IAccountService
 
         return getUser;
 
+    }
+
+    public async Task<List<User>> GetAllUsersAsync()
+    {
+        return await _accountRepository.GetAllUsersAsync();
     }
 
 }

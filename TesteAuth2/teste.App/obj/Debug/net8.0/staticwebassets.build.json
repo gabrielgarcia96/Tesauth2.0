@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YFxx0U1D/FdrJv1m0mmdKoDMQL0QvkglBsdePzN22Rw=",
+  "Hash": "V1eB7ubSDgxJ27Rmpmi3z6FLgf16rqxeXcgQs4+mCF8=",
   "Source": "teste.App",
   "BasePath": "_content/teste.App",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "teste.App\\wwwroot",
       "Source": "teste.App",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
       "BasePath": "_content/teste.App",
       "Pattern": "**"
     }
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\Radzen.Blazor.js"
     },
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
+      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
       "SourceId": "teste.App",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "teste.App#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -770,13 +770,13 @@
       "Integrity": "VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css"
+      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css"
     },
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
+      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
       "SourceId": "teste.App",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "teste.App#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -791,13 +791,13 @@
       "Integrity": "VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\app.css",
       "SourceId": "teste.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "teste.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "teste.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
       "SourceId": "teste.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -3751,7 +3751,7 @@
     },
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3788,7 +3788,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3833,7 +3833,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3878,7 +3878,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3915,7 +3915,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3960,7 +3960,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3997,7 +3997,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4042,7 +4042,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4079,7 +4079,7 @@
     },
     {
       "Route": "teste.App.bundle.scp.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4116,7 +4116,7 @@
     },
     {
       "Route": "teste.App.sq9goyadte.bundle.scp.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4161,7 +4161,7 @@
     },
     {
       "Route": "teste.App.sq9goyadte.styles.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4206,7 +4206,7 @@
     },
     {
       "Route": "teste.App.styles.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {

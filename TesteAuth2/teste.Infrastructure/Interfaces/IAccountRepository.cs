@@ -8,4 +8,5 @@ public interface IAccountRepository
     Task<User> GetUserAsync(string username);
     Task<User> GetEmailAsync(string email);
     Task<User> GetPasswordAsync(string password);
+    Task<List<User>> GetAllUsersAsync();
 }

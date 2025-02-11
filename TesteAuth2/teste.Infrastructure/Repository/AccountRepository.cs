@@ -40,5 +40,16 @@ public class AccountRepository : IAccountRepository
             (p => p.Password == password).FirstOrDefaultAsync();
     }
 
+    public Task<List<User>> GetAllUsersAsync()
+    {
+        return _configMongoDb.UserCollection.Find(u => true)
+            .Project(u => new User
+            {
+                Username = u.Username,
+                Email = u.Email,
+                Roles = u.Roles
+            })
+            .ToListAsync();
+    }
    
 }

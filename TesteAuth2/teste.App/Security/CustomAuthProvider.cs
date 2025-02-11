@@ -22,49 +22,59 @@ namespace teste.App.Security
                 var username = await _localStorage.GetItemAsync<string>("username");
                 var roleString = await _localStorage.GetItemAsync<string>("role");
 
-                Console.WriteLine($"Recuperado do LocalStorage - Username: {username}, Role: {roleString}");
+                Console.WriteLine($"LocalStorage - Username: {username}, Role: {roleString}");
 
+                ClaimsIdentity identity;
                 if (!string.IsNullOrEmpty(username) && Enum.TryParse(roleString, out Role roleValue))
                 {
-                    var identity = new ClaimsIdentity(new[]
+                    identity = new ClaimsIdentity(new[]
                     {
-                        new Claim(ClaimTypes.Name, username),
-                        new Claim(ClaimTypes.Role, roleValue.ToString())
-                    }, "apiauth");
-
-                    _principal = new ClaimsPrincipal(identity);
+                new Claim(ClaimTypes.Name, username),
+                new Claim(ClaimTypes.Role, roleValue.ToString())
+            }, "apiauth");
                 }
                 else
                 {
-                    _principal = new ClaimsPrincipal(new ClaimsIdentity()); // Usuário não autenticado
+                    identity = new ClaimsIdentity(); // Usuário não autenticado
                 }
+
+                _principal = new ClaimsPrincipal(identity);
+
+                // 🔹 Chama a notificação somente após garantir que os dados foram carregados corretamente
+                NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(_principal)));
+
+                return new AuthenticationState(_principal);
             }
 
-            return new AuthenticationState(_principal);
+            return new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity()));
         }
+
 
         public async Task MarkUserAsAuthenticated(string username, Role role)
         {
             var identity = new ClaimsIdentity(new[]
             {
-                new Claim(ClaimTypes.Name, username),
-                new Claim(ClaimTypes.Role, role.ToString())
-            }, "apiauth");
+        new Claim(ClaimTypes.Name, username),
+        new Claim(ClaimTypes.Role, role.ToString())
+    }, "apiauth");
 
             _principal = new ClaimsPrincipal(identity);
 
-            Console.WriteLine($"Usuário autenticado: {_principal.Identity.IsAuthenticated}");
-            Console.WriteLine($"Definindo no LocalStorage - Username: {username}, Role: {role}");
+            Console.WriteLine($"User auth: {_principal.Identity.IsAuthenticated}");
+            Console.WriteLine($"LocalStorage - Username: {username}, Role: {role}");
 
             await _localStorage.SetItemAsync("username", username);
             await _localStorage.SetItemAsync("role", role.ToString());
 
-            NotifyAuthenticationStateChanged(GetAuthenticationStateAsync());
+            // 🔹 Aguarda a persistência no LocalStorage antes de notificar mudanças
+            await Task.Delay(100);
+
+            NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(_principal)));
         }
 
         public async Task Logout()
         {
-            Console.WriteLine("Usuário deslogando...");
+            Console.WriteLine("Logof user...");
 
             await _localStorage.RemoveItemAsync("username");
             await _localStorage.RemoveItemAsync("role");

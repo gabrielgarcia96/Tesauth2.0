@@ -9,5 +9,5 @@ public interface IAccountService
     Task<User> GetUserAsync(string username);
     Task<User> GetEmailAsync(string email);
     Task<User> ValidadeUserAsync(string username, string password);
-
+    Task<List<User>> GetAllUsersAsync();
 }

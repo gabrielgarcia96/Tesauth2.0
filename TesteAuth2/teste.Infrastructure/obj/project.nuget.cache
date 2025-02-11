@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xUv1qjklyvI=",
+  "dgSpecHash": "Q/09J8I1KYg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabriel.garcia\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\gabriel.garcia\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.1\\microsoft.extensions.configuration.abstractions.9.0.1.nupkg.sha512",
