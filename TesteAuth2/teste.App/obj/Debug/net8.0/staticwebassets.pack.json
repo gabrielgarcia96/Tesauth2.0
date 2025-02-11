@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
+      "PackagePath": "staticwebassets\\teste.App.sq9goyadte.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\gabriel.garcia\\source\\repos\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.teste.App.props",
+      "PackagePath": "build\\teste.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.teste.App.props",
+      "PackagePath": "buildMultiTargeting\\teste.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.teste.App.props",
+      "PackagePath": "buildTransitive\\teste.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.teste.App.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.teste.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
