@@ -56,9 +56,10 @@ public class AccountService : IAccountService
        
     }
 
-    public async Task<User> ValidadeUserAsync(string username, string password)
+    public async Task<LoginDto> ValidadeUserAsync(string username, string password)
     {
         var getUser = await _accountRepository.GetUserAsync(username);
+       
 
         if (getUser == null)
         {
@@ -77,7 +78,12 @@ public class AccountService : IAccountService
             throw new UnauthorizedAccessException("Invalid username or password!");
         }
 
-        return getUser;
+
+        return new LoginDto
+        {
+            Username = username,
+            Roles = getUser.Roles
+        };
 
     }
 

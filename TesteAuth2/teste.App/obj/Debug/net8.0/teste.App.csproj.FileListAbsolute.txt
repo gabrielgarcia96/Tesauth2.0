@@ -103,3 +103,11 @@ C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\net8.0\teste.App.pdb
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\net8.0\teste.App.genruntimeconfig.cache
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\net8.0\ref\teste.App.dll
+C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
