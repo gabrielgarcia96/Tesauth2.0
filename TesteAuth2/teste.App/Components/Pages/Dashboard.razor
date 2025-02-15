@@ -1,8 +1,15 @@
 ﻿@page "/dashboard"
+@attribute [Authorize]
 
+@using Blazored.LocalStorage
+@using System.Security.Claims
 @using teste.Domain.Models
 @using teste.Application.Interfaces
+@using teste.App.Security
 
+@inject CustomAuthProvider CustomAuth
+@inject ILocalStorageService LocalStorage
+@inject NavigationManager Navigation
 @inject IAccountService AccountService
 
 <RadzenButton Click="showFormProduct">Cadastrar Produto</RadzenButton>
@@ -47,6 +54,8 @@
     </RadzenRow>
 }
 
+<RadzenButton Click="CustomAuth.Logout">Logout</RadzenButton>
+
 @code {
     private List<User> Users = new();
     private bool showUserList = false;
@@ -55,7 +64,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        Users = await AccountService.GetAllUsersAsync();
+         Users = await AccountService.GetAllUsersAsync();
 
     }
 

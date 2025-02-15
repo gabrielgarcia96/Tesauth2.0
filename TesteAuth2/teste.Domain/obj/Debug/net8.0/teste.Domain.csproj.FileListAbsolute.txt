@@ -23,3 +23,16 @@ C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Deb
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\refint\teste.Domain.dll
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\teste.Domain.pdb
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\ref\teste.Domain.dll
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\bin\Debug\net8.0\teste.Domain.deps.json
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\bin\Debug\net8.0\teste.Domain.dll
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\bin\Debug\net8.0\teste.Domain.pdb
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\teste.Domain.csproj.AssemblyReference.cache
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\teste.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\teste.Domain.AssemblyInfoInputs.cache
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\teste.Domain.AssemblyInfo.cs
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\teste.Domain.csproj.CoreCompileInputs.cache
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\teste.Domain.sourcelink.json
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\teste.Domain.dll
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\refint\teste.Domain.dll
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\teste.Domain.pdb
+C:\Github\Tesauth2.0\TesteAuth2\teste.Domain\obj\Debug\net8.0\ref\teste.Domain.dll
