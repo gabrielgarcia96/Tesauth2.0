@@ -12,10 +12,15 @@
 @inject NavigationManager Navigation
 @inject IAccountService AccountService
 
-<RadzenButton Click="showFormProduct">Cadastrar Produto</RadzenButton>
-<RadzenButton Click="showListUser">Lista de Usuários</RadzenButton>
+<RadzenButton Click="showFormProduct" style="margin-right: 12px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;"
+              HoverStyle="background-color: #0056b3;">Cadastrar Produto</RadzenButton>
 
-@if(showUserList){
+<RadzenButton Click="showListUser" style="margin-right: 12px; padding: 10px 20px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;"
+              HoverStyle="background-color: #218838;">Lista de Usuários</RadzenButton>
+
+@if (showUserList)
+{
+    <br />
     <RadzenDataGrid PageSize="5" AllowPaging="true" AllowSorting="true" Data="@Users" ColumnWidth="400px">
         <Columns>
             <RadzenDataGridColumn Property="Username" Title="Username" Width="150px" />
@@ -25,54 +30,64 @@
                     @user.Roles.ToString()
                 </Template>
             </RadzenDataGridColumn>
-
         </Columns>
     </RadzenDataGrid>
 }
-@if(showProductForm){
-    <RadzenRow AlignItems="AlignItems.End" Wrap="FlexWrap.Wrap" Gap="1rem" class="rz-p-sm-12">
-        <RadzenColumn Size="12" SizeMD="6" SizeLG="3">
-            <RadzenFormField Text="Outlined/Default" Style="width: 100%;">
-                <RadzenTextBox @bind-Value="@value" />
-            </RadzenFormField>
-        </RadzenColumn>
-        <RadzenColumn Size="12" SizeMD="6" SizeLG="3">
-            <RadzenFormField Text="Text" Variant="Variant.Text" Style="width: 100%;">
-                <RadzenTextBox @bind-Value="@value" />
-            </RadzenFormField>
-        </RadzenColumn>
-        <RadzenColumn Size="12" SizeMD="6" SizeLG="3">
-            <RadzenFormField Text="Flat" Variant="Variant.Flat" Style="width: 100%;">
-                <RadzenTextBox @bind-Value="@value" />
-            </RadzenFormField>
-        </RadzenColumn>
-        <RadzenColumn Size="12" SizeMD="6" SizeLG="3">
-            <RadzenFormField Text="Filled" Variant="Variant.Filled" Style="width: 100%;">
-                <RadzenTextBox @bind-Value="@value" />
-            </RadzenFormField>
-        </RadzenColumn>
-    </RadzenRow>
+
+@if (showProductForm)
+{
+    <br />
+    <RadzenStack style="background-color: rgba(255,255,255,0.4); width: 40%; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" class="rz-p-12">
+        <EditForm Model="Products" FormName="FormProduct">
+            <div style="margin-bottom: 12px;">
+                <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Code:</RadzenText>
+                <RadzenNumeric class="fieldNumeric" @bind-Value="Products.Code" ShowUpDown="false" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            </div>
+            <div style="margin-bottom: 12px;">
+                <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Name:</RadzenText>
+                <RadzenTextBox @bind-Value="Products.NameProduct" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            </div>
+            <div style="margin-bottom: 12px;">
+                <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Price:</RadzenText>
+                <RadzenNumeric @bind-Value="Products.Price" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            </div>
+            <div style="margin-bottom: 12px;">
+                <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Active:</RadzenText>
+                <RadzenCheckBox @bind-Value="Products.Active" Name="CheckBox1" style="margin-top: 5px;" />
+            </div>
+
+            <div style="margin-top: 30px">
+                <RadzenButton ButtonType="ButtonType.Submit" Text="Register" ButtonStyle="ButtonStyle.Primary" />
+            </div>
+        </EditForm>
+    </RadzenStack>
 }
 
-<RadzenButton Click="CustomAuth.Logout">Logout</RadzenButton>
+<RadzenButton Click="CustomAuth.Logout" style="margin-top: 12px; padding: 10px 20px; background-color: #dc3545; color: white; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;"
+              HoverStyle="background-color: #c82333;">Logout</RadzenButton>
 
 @code {
     private List<User> Users = new();
+    private Product Products = new();
     private bool showUserList = false;
     private bool showProductForm = false;
     private string value = "";
 
     protected override async Task OnInitializedAsync()
     {
-         Users = await AccountService.GetAllUsersAsync();
-
+        await CustomAuth.InitializeAuthState();
+        Users = await AccountService.GetAllUsersAsync();
     }
 
-    private void showListUser(){
+    private void showListUser()
+    {
         showUserList = !showUserList;
     }
 
-    private void showFormProduct(){
+    private void showFormProduct()
+    {
         showProductForm = !showProductForm;
     }
+
+    
 }

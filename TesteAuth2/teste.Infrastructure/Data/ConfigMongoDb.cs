@@ -14,4 +14,5 @@ public class ConfigMongoDb
     }
 
     public IMongoCollection<User> UserCollection => _database.GetCollection<User>("Users");
+    public IMongoCollection<Product> ProductCollection => _database.GetCollection<Product>("Products");
 }

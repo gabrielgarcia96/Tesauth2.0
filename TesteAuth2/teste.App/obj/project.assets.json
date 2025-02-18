@@ -1858,23 +1858,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bielg\\.nuget\\packages\\": {},
+    "C:\\Users\\gabriel.garcia\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\teste.App.csproj",
+      "projectUniqueName": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\teste.App.csproj",
       "projectName": "teste.App",
-      "projectPath": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\teste.App.csproj",
-      "packagesPath": "C:\\Users\\bielg\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\",
+      "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\teste.App.csproj",
+      "packagesPath": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\bielg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabriel.garcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1889,14 +1889,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\teste.Application.csproj": {
-              "projectPath": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\teste.Application.csproj"
+            "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\teste.Application.csproj": {
+              "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\teste.Application.csproj"
             },
-            "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj": {
-              "projectPath": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj"
+            "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj": {
+              "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj"
             },
-            "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj": {
-              "projectPath": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj"
+            "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\teste.Infrastructure.csproj"
             }
           }
         }
@@ -1909,7 +1909,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -1945,7 +1945,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
