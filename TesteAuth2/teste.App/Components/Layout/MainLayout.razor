@@ -20,6 +20,7 @@
 						@if (context.User.IsInRole("Admin") || context.User.IsInRole("Manager") || context.User.IsInRole("User"))
 						{
 							<RadzenPanelMenuItem Text="Dashboard" Icon="account_box" Path="dashboard" />
+							<RadzenPanelMenuItem Text="Products" Icon="account_box" Path="products" />
 							
 						}
 					</Authorized>

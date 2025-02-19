@@ -1,0 +1,112 @@
+﻿@page "/products"
+
+@attribute [Authorize]
+
+@using Blazored.LocalStorage
+@using System.Security.Claims
+@using teste.Domain.Models
+@using teste.Application.Interfaces
+@using teste.App.Security
+
+
+@inject CustomAuthProvider CustomAuth
+@inject ILocalStorageService LocalStorage
+@inject NavigationManager Navigation
+@inject Radzen.NotificationService notification
+@inject IProductService ProductService
+
+<RadzenButton Click="showFormProduct" style="margin-right: 12px; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;"
+              HoverStyle="background-color: #0056b3;">Cadastrar Produto</RadzenButton>
+
+
+<RadzenDataGrid PageSize="5" AllowPaging="true" AllowSorting="true" Data="@ListProduct" ColumnWidth="400px">
+    <Columns>
+        <RadzenDataGridColumn Property="Code" Title="Code" Width="150px" />
+        <RadzenDataGridColumn Property="NameProduct" Title="Name" Width="250px" />
+        <RadzenDataGridColumn Property="Price" Title="Price" Width="250px" />
+        <RadzenDataGridColumn Property="CodBarras" Title="Code " Width="250px" />
+        <RadzenDataGridColumn Property="Active" Title="Status" Width="250px" />
+    </Columns>
+</RadzenDataGrid>
+
+@if (showProductForm)
+{
+    <br />
+    <RadzenStack style="background-color: rgba(255,255,255,0.4); width: 40%; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" class="rz-p-12">
+        <EditForm Model="Product" FormName="FormProduct" OnSubmit="HandleProduct">
+            <div style="margin-bottom: 12px;">
+                <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Code:</RadzenText>
+                <RadzenNumeric class="fieldNumeric" @bind-Value="Product.Code" ShowUpDown="false" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            </div>
+            <div style="margin-bottom: 12px;">
+                <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Name:</RadzenText>
+                <RadzenTextBox @bind-Value="Product.NameProduct" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            </div>
+            <div style="margin-bottom: 12px;">
+                <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Price:</RadzenText>
+                <RadzenNumeric @bind-Value="Product.Price" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            </div>
+            <div style="margin-bottom: 12px;">
+                <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Active:</RadzenText>
+                <RadzenCheckBox @bind-Value="Product.Active" Name="CheckBox1" style="margin-top: 5px;" />
+            </div>
+
+            <div style="margin-top: 30px">
+                <RadzenButton ButtonType="ButtonType.Submit" Text="Register" ButtonStyle="ButtonStyle.Primary" />
+            </div>
+        </EditForm>
+    </RadzenStack>
+}
+
+@code {
+
+    private Product Product = new();
+
+    private List<Product> ListProduct = new();
+    private bool showProductForm = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CustomAuth.InitializeAuthState();
+        ListProduct = await ProductService.GetAllProductsAsync();
+    }
+
+
+    private void showFormProduct()
+    {
+        showProductForm = !showProductForm;
+    }
+
+    private async Task HandleProduct()
+    {
+        try
+        {
+            var existCode = await ProductService.GetByCodeAsync(Product.Code);
+            var existProductName = await ProductService.GetProductNameAsync(Product.NameProduct);
+
+            if (existCode != null)
+            {
+                notification.Notify(Radzen.NotificationSeverity.Error, "Erro", "Code already exists!");
+                return;
+            }
+
+            if (existProductName != null)
+            {
+                notification.Notify(Radzen.NotificationSeverity.Error, "Erro", "Product Name already exists!");
+                return;
+
+            }
+
+            await ProductService.AddProductAsync(Product);
+
+            ListProduct = await ProductService.GetAllProductsAsync();
+
+            Product = new();
+            notification.Notify(Radzen.NotificationSeverity.Success, "Product Created Success!");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error register Product: " + ex);
+        }
+    }
+}

@@ -11,6 +11,6 @@ public class Product
     public string NameProduct { get; set; }
     [BsonElement("price_product")]
     public int Price { get; set; }
-    public string CodBarras { get; set; }
+    public string? CodBarras { get; set; }
     public bool Active { get; set; }
 }

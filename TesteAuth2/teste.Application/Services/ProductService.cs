@@ -41,7 +41,7 @@ public class ProductService : IProductService
 
     public Task<List<Product>> GetAllProductsAsync()
     {
-        throw new NotImplementedException();
+        return _productRepository.GetAllProductsAsync();
     }
 
     public Task<Product> GetByCodeAsync(string code)
