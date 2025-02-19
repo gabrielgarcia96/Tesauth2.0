@@ -8,6 +8,7 @@ using teste.Application.Interfaces;
 using teste.Application.Services;
 using teste.Domain.Interfaces;
 using teste.Infrastructure.Data;
+using teste.Infrastructure.Interfaces;
 using teste.Infrastructure.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +25,8 @@ builder.Services.AddRadzenComponents();
 
 // Services and Repositorys
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 
 // add authentication: 

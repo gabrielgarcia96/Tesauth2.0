@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
+      "Id": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
       "PackagePath": "staticwebassets\\teste.App.sq9goyadte.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\app.css",
+      "Id": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
+      "Id": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

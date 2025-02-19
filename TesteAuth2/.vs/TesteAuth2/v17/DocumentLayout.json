@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\",
+  "WorkspaceRootPath": "C:\\Github\\Tesauth2.0\\TesteAuth2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25C31A9F-24AF-4A9F-88F8-3FBF81C4CC0E}|teste.Application\\teste.Application.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25C31A9F-24AF-4A9F-88F8-3FBF81C4CC0E}|teste.Application\\teste.Application.csproj|c:\\github\\tesauth2.0\\testeauth2\\teste.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25C31A9F-24AF-4A9F-88F8-3FBF81C4CC0E}|teste.Application\\teste.Application.csproj|solutionrelative:teste.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25C31A9F-24AF-4A9F-88F8-3FBF81C4CC0E}|teste.Application\\teste.Application.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.application\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C31A9F-24AF-4A9F-88F8-3FBF81C4CC0E}|teste.Application\\teste.Application.csproj|solutionrelative:teste.application\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|c:\\github\\tesauth2.0\\testeauth2\\teste.app\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|solutionrelative:teste.app\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B5BA00E-438D-4643-880B-618651E790E1}|teste.Infrastructure\\teste.Infrastructure.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.infrastructure\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B5BA00E-438D-4643-880B-618651E790E1}|teste.Infrastructure\\teste.Infrastructure.csproj|solutionrelative:teste.infrastructure\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|c:\\github\\tesauth2.0\\testeauth2\\teste.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|solutionrelative:teste.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25C31A9F-24AF-4A9F-88F8-3FBF81C4CC0E}|teste.Application\\teste.Application.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25C31A9F-24AF-4A9F-88F8-3FBF81C4CC0E}|teste.Application\\teste.Application.csproj|c:\\github\\tesauth2.0\\testeauth2\\teste.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25C31A9F-24AF-4A9F-88F8-3FBF81C4CC0E}|teste.Application\\teste.Application.csproj|solutionrelative:teste.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.app\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|solutionrelative:teste.app\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8B5BA00E-438D-4643-880B-618651E790E1}|teste.Infrastructure\\teste.Infrastructure.csproj|c:\\github\\tesauth2.0\\testeauth2\\teste.infrastructure\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B5BA00E-438D-4643-880B-618651E790E1}|teste.Infrastructure\\teste.Infrastructure.csproj|solutionrelative:teste.infrastructure\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,66 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "teste.Infrastructure\\Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "teste.Infrastructure\\Repository\\ProductRepository.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAUwD4AAABtAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Program.cs",
+              "RelativeDocumentMoniker": "teste.App\\Program.cs",
+              "ToolTip": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Program.cs",
+              "RelativeToolTip": "teste.App\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAnwBwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T20:20:21.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "teste.Application\\Services\\AccountService.cs",
-              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\Services\\AccountService.cs",
-              "RelativeToolTip": "teste.Application\\Services\\AccountService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T20:10:33.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "teste.Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "teste.Application\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T19:42:32.039Z",
+              "WhenOpened": "2025-02-19T02:19:51.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\Interfaces\\IProductService.cs",
+              "DocumentMoniker": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "teste.Application\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\Interfaces\\IProductService.cs",
               "RelativeToolTip": "teste.Application\\Interfaces\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T19:21:12.275Z",
+              "WhenOpened": "2025-02-19T02:19:28.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "teste.App\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "teste.App\\Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAswHgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T02:18:28.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "teste.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "teste.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA+wDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T02:16:56.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Dashboard.razor",
-              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Dashboard.razor",
-              "RelativeDocumentMoniker": "teste.App\\Components\\Pages\\Dashboard.razor",
-              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Dashboard.razor",
-              "RelativeToolTip": "teste.App\\Components\\Pages\\Dashboard.razor",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-15T13:09:01.818Z",
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "teste.Infrastructure\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Infrastructure\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "teste.Infrastructure\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwD4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:20:21.138Z",
               "EditorCaption": ""
             }
           ]

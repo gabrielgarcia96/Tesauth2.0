@@ -58,7 +58,9 @@ public class ProductRepository : IProductRepository
         await _configMongoDb.ProductCollection.UpdateOneAsync(filter, update);
     }
 
-    public Task<Product> GetProductNameAsync(string nameProduct)
+    
+
+    public  Task<Product> GetProductNameAsync(string nameProduct)
     {
         return _configMongoDb.ProductCollection.Find(n => n.NameProduct == nameProduct).FirstOrDefaultAsync();
     }

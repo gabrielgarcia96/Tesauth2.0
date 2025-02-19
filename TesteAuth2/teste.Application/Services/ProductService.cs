@@ -16,7 +16,7 @@ public class ProductService : IProductService
     public async Task AddProductAsync(Product product)
     {
         var existCode = await _productRepository.GetByCodeAsync(product.Code);
-        var existProjectName = await _productRepository.GetProductNameAsync(product.NameProduct);
+        var existProductName = await _productRepository.GetProductNameAsync(product.NameProduct);
 
         if (existCode!= null)
         {
@@ -24,9 +24,13 @@ public class ProductService : IProductService
             return;
         }
 
+        if (existProductName != null)
+        {
+            Console.WriteLine("Product Name already exists!");
+            return;
+        }
 
-
-
+        await _productRepository.AddProductAsync(product);
 
     }
 
@@ -42,11 +46,17 @@ public class ProductService : IProductService
 
     public Task<Product> GetByCodeAsync(string code)
     {
-        throw new NotImplementedException();
+        return _productRepository.GetByCodeAsync(code);
     }
 
     public Task UpdateAsync(string code, Product product)
     {
         throw new NotImplementedException();
     }
+   public  Task<Product> GetProductNameAsync(string productName)
+    {
+       return _productRepository.GetProductNameAsync(productName);
+    }
+
+
 }
