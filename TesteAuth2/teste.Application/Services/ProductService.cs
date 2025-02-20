@@ -34,9 +34,9 @@ public class ProductService : IProductService
 
     }
 
-    public Task DeleteAsync(string code)
+    public Task DeleteAsync(int code)
     {
-        throw new NotImplementedException();
+        return _productRepository.DeleteAsync(code);
     }
 
     public Task<List<Product>> GetAllProductsAsync()
@@ -44,14 +44,14 @@ public class ProductService : IProductService
         return _productRepository.GetAllProductsAsync();
     }
 
-    public Task<Product> GetByCodeAsync(string code)
+    public Task<Product> GetByCodeAsync(int code)
     {
         return _productRepository.GetByCodeAsync(code);
     }
 
-    public Task UpdateAsync(string code, Product product)
+    public Task UpdateAsync(int code, Product product)
     {
-        throw new NotImplementedException();
+       return _productRepository.UpdateAsync(code, product);
     }
    public  Task<Product> GetProductNameAsync(string productName)
     {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0K+yZy/B76OIluCmBCnzqaJcbHe3qDhGa5knF5N3Z5k=",
+  "Hash": "a4G+dIsBzWMPHZALrD8J/ZTgHjGyKE0eliRHqCgOX3w=",
   "Source": "teste.App",
   "BasePath": "_content/teste.App",
   "Mode": "Default",
@@ -10,752 +10,17 @@
     {
       "Name": "teste.App\\wwwroot",
       "Source": "teste.App",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
       "BasePath": "_content/teste.App",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3n42z5pscj",
-      "Integrity": "AbUoh0WyJ6vVwP1Q6ca8WDzLK65RR3t5PQ5vD5wcSCU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-base.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/dark-base.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xihcftc4v3",
-      "Integrity": "uaaWzzzDvusck4fl7NvTVyovIRj0jwWPBSinh7QoXyI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-base.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-wcag.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/dark-wcag.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "f9yvf3g7j5",
-      "Integrity": "M9oCY0HEHaFPTMj7CLTxNBT7/8jUvcI3/3q27/kphek=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-wcag.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/default.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "pbq3jaq3k0",
-      "Integrity": "+5xlKXTbNn3amd8ctMbF/O+QSkDtblcWi3as4tjyqC4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-base.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/default-base.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "wfr3h8z7od",
-      "Integrity": "VJHVdYDKwbz3M2/fsz33dbLmYsN6mqaOk13BJD6TYRc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-base.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-wcag.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/default-wcag.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "796b73bq82",
-      "Integrity": "lYiMLG73UrqjeD3Xr0zwkygnPDSAQXeAo1554Yjqjkc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-wcag.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/humanistic.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cjmftspi3d",
-      "Integrity": "KKOTpPcyok2gwrLQNPe/HiIKgkCNxPPJVckvuNasQb0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-base.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/humanistic-base.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "1j2oaikhk5",
-      "Integrity": "zXR4gEQow7grOiRYHwxRqmvmyWcFEIOoqPS6Bf6R/ls=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-base.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/humanistic-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "e1dmbn6xad",
-      "Integrity": "fs2yqLp42sHAOey3Lex+cLbc6KGeJOynIB3HxZSUXR0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-base.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/humanistic-dark-base.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "uwequk6plg",
-      "Integrity": "/hsME0qpR/RIO3FWsiOtOXcoBfGZqlNkQ2bvmfdutoE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-base.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-wcag.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/humanistic-dark-wcag.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "a5szytxnku",
-      "Integrity": "wsCFo85Tm++Hir55ycJcA850vMHr3ejT4YmaO32HaNc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-wcag.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-wcag.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/humanistic-wcag.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "x6merli1rk",
-      "Integrity": "J8kJYxpBFMrMjHMBSdDlq1lYqyntxOrDZ8AW5FrxH8U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-wcag.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/material.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "nrix440pxq",
-      "Integrity": "vc5Z5QAv3MvTQuJOrfBNegQxtr2kxqlHRRlR6L7iRH8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-base.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/material-base.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "06dsev26fs",
-      "Integrity": "qHtHCoERbW0+9gmM+3kn38gIOUs1idusCneg8KV+tJU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-base.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/material-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "t33mrj3vso",
-      "Integrity": "xy//ZEyuuRCEAmG9E8A5Z2msJUF/ZMyZ2/+QekjM0j0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-base.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/material-dark-base.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "pp4dvo832o",
-      "Integrity": "HXiIa+QpGuVO49oCyMw2rUWHH6CzufGWdwYNahx1qhU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-base.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-wcag.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/material-dark-wcag.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "22pb44itlf",
-      "Integrity": "mscmBJFsTrAe0H/SoknylPnukiQX2yfQ/zSnbR4B75k=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-wcag.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-wcag.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/material-wcag.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "pblx1qaqft",
-      "Integrity": "y6x9nQqkv3mW+Dvmm6Pvh+h0ixHfY0RLzrX6ZlktoG4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-wcag.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/software.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "aavck67ay0",
-      "Integrity": "YoXTDttK//JX03GPHqAvSvxtUnSWW6tyKKSh1RzYp0E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-base.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/software-base.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "29bleyvcrv",
-      "Integrity": "NrIE/sKBe0hlpKndnimZZSXSz7MR7szifPNm5hzjfFw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-base.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/software-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "wgylxyz2x2",
-      "Integrity": "wNqrxSoWJioBUPqjZlTmLXixTNpDhSvFwwfgjBR+JAI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-base.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/software-dark-base.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "v94yo5xs72",
-      "Integrity": "3Vn8Mjf4xHGoyuMl9RAiRp9l3WYxRkndR0u4A3k2UHE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-base.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-wcag.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/software-dark-wcag.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "557e8lceon",
-      "Integrity": "VyhJgq8po3mud6FSP2a9ENksqEZN5jW2kGxLQC+F154=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-wcag.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-wcag.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/software-wcag.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9fpk6led9e",
-      "Integrity": "tRcVAq9DGc0nyvTuxUpiBTY8PaxnC6deHLSE8Ri1PMg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-wcag.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/standard.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "nu1f33yf5w",
-      "Integrity": "H2aC0DX2lYA1/ZrJcA6ZJ6Y7qmvkuwTfK+Ape9nbfhY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-base.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/standard-base.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "dzwo8va9jz",
-      "Integrity": "B38BpIHJKsv4NfVCL4O5O/51XBIDUqdeL0Ui4k/A9e8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-base.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/standard-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "gidaho8j4h",
-      "Integrity": "6LN5H5yixTF6AdyqzRJvlyXcbDqyxg1Nq1rAOo957g4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-base.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/standard-dark-base.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "u7eqiajbox",
-      "Integrity": "enRhK0aVsdphwSjuaFWUBGDUsWX4TflmAxzQbFaMdVg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-base.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-wcag.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/standard-dark-wcag.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "7bt2cgjiuc",
-      "Integrity": "HYNTnwNf3xj899KPdiKwmD1e5t3XRg9VaQgB1ZOvKeI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-wcag.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-wcag.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/standard-wcag.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "kp0ueqs315",
-      "Integrity": "GFU2mt0A9T8j9YMwMQqIUmdziKNDuPppDCn2o37LV2E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-wcag.css"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "fonts/MaterialSymbolsOutlined.woff2",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mv86jbv18h",
-      "Integrity": "jl6yGniuOaLQTXd36jhE7+/dH86dwgPNpHgSvBiQxxM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\RobotoFlex.woff2",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "fonts/RobotoFlex.woff2",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "tdgcpklreb",
-      "Integrity": "D4n6QkbzuJDYChkHTPMXLxJlSC/5uucOpe2kU+JCJRs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\RobotoFlex.woff2"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "fonts/SourceSans3VF-Italic.ttf.woff2",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "sw3iuqo2hf",
-      "Integrity": "tJWavAVpOS+HxsasYS+Q4/4BBNKDckGJt9i29hrzR9M=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "fonts/SourceSans3VF-Upright.ttf.woff2",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "nqmp3d2aoy",
-      "Integrity": "XxZWb3pA05szmtJr4VH6Whqx8MJXTHouYZdlWEoay9g=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\Radzen.Blazor.js",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "Radzen.Blazor.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hhkbx76gqu",
-      "Integrity": "iybf90y3kfW5bciTdjo7Kd4sQAffs/Ofr5q6N3ZEGmM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\Radzen.Blazor.js"
-    },
-    {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
+      "Identity": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
       "SourceId": "teste.App",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "teste.App#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -770,13 +35,13 @@
       "Integrity": "VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css"
+      "OriginalItemSpec": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css"
     },
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
+      "Identity": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
       "SourceId": "teste.App",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "teste.App#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -791,13 +56,13 @@
       "Integrity": "VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\app.css",
+      "Identity": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\app.css",
       "SourceId": "teste.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -815,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "teste.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -829,17 +94,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "teste.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -857,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
+      "Identity": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
       "SourceId": "teste.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
+      "ContentRoot": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\",
       "BasePath": "_content/teste.App",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -876,12 +141,747 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3n42z5pscj",
+      "Integrity": "AbUoh0WyJ6vVwP1Q6ca8WDzLK65RR3t5PQ5vD5wcSCU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/dark-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xihcftc4v3",
+      "Integrity": "uaaWzzzDvusck4fl7NvTVyovIRj0jwWPBSinh7QoXyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/dark-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f9yvf3g7j5",
+      "Integrity": "M9oCY0HEHaFPTMj7CLTxNBT7/8jUvcI3/3q27/kphek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/default.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pbq3jaq3k0",
+      "Integrity": "+5xlKXTbNn3amd8ctMbF/O+QSkDtblcWi3as4tjyqC4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/default-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wfr3h8z7od",
+      "Integrity": "VJHVdYDKwbz3M2/fsz33dbLmYsN6mqaOk13BJD6TYRc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/default-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "796b73bq82",
+      "Integrity": "lYiMLG73UrqjeD3Xr0zwkygnPDSAQXeAo1554Yjqjkc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cjmftspi3d",
+      "Integrity": "KKOTpPcyok2gwrLQNPe/HiIKgkCNxPPJVckvuNasQb0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1j2oaikhk5",
+      "Integrity": "zXR4gEQow7grOiRYHwxRqmvmyWcFEIOoqPS6Bf6R/ls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e1dmbn6xad",
+      "Integrity": "fs2yqLp42sHAOey3Lex+cLbc6KGeJOynIB3HxZSUXR0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic-dark-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uwequk6plg",
+      "Integrity": "/hsME0qpR/RIO3FWsiOtOXcoBfGZqlNkQ2bvmfdutoE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic-dark-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a5szytxnku",
+      "Integrity": "wsCFo85Tm++Hir55ycJcA850vMHr3ejT4YmaO32HaNc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/humanistic-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x6merli1rk",
+      "Integrity": "J8kJYxpBFMrMjHMBSdDlq1lYqyntxOrDZ8AW5FrxH8U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nrix440pxq",
+      "Integrity": "vc5Z5QAv3MvTQuJOrfBNegQxtr2kxqlHRRlR6L7iRH8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "06dsev26fs",
+      "Integrity": "qHtHCoERbW0+9gmM+3kn38gIOUs1idusCneg8KV+tJU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t33mrj3vso",
+      "Integrity": "xy//ZEyuuRCEAmG9E8A5Z2msJUF/ZMyZ2/+QekjM0j0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material-dark-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pp4dvo832o",
+      "Integrity": "HXiIa+QpGuVO49oCyMw2rUWHH6CzufGWdwYNahx1qhU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material-dark-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "22pb44itlf",
+      "Integrity": "mscmBJFsTrAe0H/SoknylPnukiQX2yfQ/zSnbR4B75k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pblx1qaqft",
+      "Integrity": "y6x9nQqkv3mW+Dvmm6Pvh+h0ixHfY0RLzrX6ZlktoG4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aavck67ay0",
+      "Integrity": "YoXTDttK//JX03GPHqAvSvxtUnSWW6tyKKSh1RzYp0E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "29bleyvcrv",
+      "Integrity": "NrIE/sKBe0hlpKndnimZZSXSz7MR7szifPNm5hzjfFw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wgylxyz2x2",
+      "Integrity": "wNqrxSoWJioBUPqjZlTmLXixTNpDhSvFwwfgjBR+JAI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software-dark-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v94yo5xs72",
+      "Integrity": "3Vn8Mjf4xHGoyuMl9RAiRp9l3WYxRkndR0u4A3k2UHE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software-dark-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "557e8lceon",
+      "Integrity": "VyhJgq8po3mud6FSP2a9ENksqEZN5jW2kGxLQC+F154=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/software-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9fpk6led9e",
+      "Integrity": "tRcVAq9DGc0nyvTuxUpiBTY8PaxnC6deHLSE8Ri1PMg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nu1f33yf5w",
+      "Integrity": "H2aC0DX2lYA1/ZrJcA6ZJ6Y7qmvkuwTfK+Ape9nbfhY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dzwo8va9jz",
+      "Integrity": "B38BpIHJKsv4NfVCL4O5O/51XBIDUqdeL0Ui4k/A9e8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gidaho8j4h",
+      "Integrity": "6LN5H5yixTF6AdyqzRJvlyXcbDqyxg1Nq1rAOo957g4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard-dark-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u7eqiajbox",
+      "Integrity": "enRhK0aVsdphwSjuaFWUBGDUsWX4TflmAxzQbFaMdVg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard-dark-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7bt2cgjiuc",
+      "Integrity": "HYNTnwNf3xj899KPdiKwmD1e5t3XRg9VaQgB1ZOvKeI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-wcag.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard-wcag.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kp0ueqs315",
+      "Integrity": "GFU2mt0A9T8j9YMwMQqIUmdziKNDuPppDCn2o37LV2E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-wcag.css"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/MaterialSymbolsOutlined.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mv86jbv18h",
+      "Integrity": "jl6yGniuOaLQTXd36jhE7+/dH86dwgPNpHgSvBiQxxM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\RobotoFlex.woff2",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/RobotoFlex.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tdgcpklreb",
+      "Integrity": "D4n6QkbzuJDYChkHTPMXLxJlSC/5uucOpe2kU+JCJRs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\RobotoFlex.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/SourceSans3VF-Italic.ttf.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sw3iuqo2hf",
+      "Integrity": "tJWavAVpOS+HxsasYS+Q4/4BBNKDckGJt9i29hrzR9M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/SourceSans3VF-Upright.ttf.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nqmp3d2aoy",
+      "Integrity": "XxZWb3pA05szmtJr4VH6Whqx8MJXTHouYZdlWEoay9g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\Radzen.Blazor.js",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "Radzen.Blazor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hhkbx76gqu",
+      "Integrity": "iybf90y3kfW5bciTdjo7Kd4sQAffs/Ofr5q6N3ZEGmM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\Radzen.Blazor.js"
     }
   ],
   "Endpoints": [
     {
       "Route": "_content/Radzen.Blazor/css/dark.3n42z5pscj.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -926,7 +926,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/dark.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -963,7 +963,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/dark-base.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1000,7 +1000,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/dark-base.xihcftc4v3.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/dark-wcag.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1082,7 +1082,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/dark-wcag.f9yvf3g7j5.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\dark-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1127,7 +1127,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/default.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1164,7 +1164,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/default.pbq3jaq3k0.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1209,7 +1209,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/default-base.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1246,7 +1246,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/default-base.wfr3h8z7od.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1291,7 +1291,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/default-wcag.796b73bq82.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1336,7 +1336,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/default-wcag.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\default-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1373,7 +1373,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic.cjmftspi3d.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1418,7 +1418,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1455,7 +1455,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic-base.1j2oaikhk5.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1500,7 +1500,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic-base.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1537,7 +1537,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic-dark.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1574,7 +1574,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic-dark.e1dmbn6xad.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1619,7 +1619,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic-dark-base.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1656,7 +1656,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic-dark-base.uwequk6plg.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1701,7 +1701,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic-dark-wcag.a5szytxnku.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1746,7 +1746,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic-dark-wcag.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-dark-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1783,7 +1783,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic-wcag.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1820,7 +1820,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/humanistic-wcag.x6merli1rk.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\humanistic-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1865,7 +1865,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1902,7 +1902,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material.nrix440pxq.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1947,7 +1947,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material-base.06dsev26fs.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1992,7 +1992,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material-base.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2029,7 +2029,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material-dark.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2066,7 +2066,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material-dark.t33mrj3vso.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2111,7 +2111,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material-dark-base.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2148,7 +2148,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material-dark-base.pp4dvo832o.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2193,7 +2193,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material-dark-wcag.22pb44itlf.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2238,7 +2238,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material-dark-wcag.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-dark-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2275,7 +2275,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material-wcag.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2312,7 +2312,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/material-wcag.pblx1qaqft.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\material-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2357,7 +2357,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software.aavck67ay0.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2402,7 +2402,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2439,7 +2439,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software-base.29bleyvcrv.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2484,7 +2484,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software-base.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2521,7 +2521,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software-dark.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2558,7 +2558,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software-dark.wgylxyz2x2.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2603,7 +2603,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software-dark-base.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2640,7 +2640,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software-dark-base.v94yo5xs72.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2685,7 +2685,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software-dark-wcag.557e8lceon.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2730,7 +2730,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software-dark-wcag.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-dark-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2767,7 +2767,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software-wcag.9fpk6led9e.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2812,7 +2812,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/software-wcag.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\software-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2849,7 +2849,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2886,7 +2886,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard.nu1f33yf5w.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2931,7 +2931,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard-base.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2968,7 +2968,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard-base.dzwo8va9jz.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3013,7 +3013,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard-dark.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3050,7 +3050,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard-dark.gidaho8j4h.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3095,7 +3095,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard-dark-base.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3132,7 +3132,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard-dark-base.u7eqiajbox.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-base.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3177,7 +3177,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard-dark-wcag.7bt2cgjiuc.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3222,7 +3222,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard-dark-wcag.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-dark-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3259,7 +3259,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard-wcag.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3296,7 +3296,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/css/standard-wcag.kp0ueqs315.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-wcag.css",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\css\\standard-wcag.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3341,7 +3341,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/fonts/MaterialSymbolsOutlined.mv86jbv18h.woff2",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3386,7 +3386,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/fonts/MaterialSymbolsOutlined.woff2",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\MaterialSymbolsOutlined.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3423,7 +3423,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/fonts/RobotoFlex.tdgcpklreb.woff2",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\RobotoFlex.woff2",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\RobotoFlex.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3468,7 +3468,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/fonts/RobotoFlex.woff2",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\RobotoFlex.woff2",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\RobotoFlex.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3505,7 +3505,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/fonts/SourceSans3VF-Italic.ttf.sw3iuqo2hf.woff2",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3550,7 +3550,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/fonts/SourceSans3VF-Italic.ttf.woff2",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Italic.ttf.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3587,7 +3587,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/fonts/SourceSans3VF-Upright.ttf.nqmp3d2aoy.woff2",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3632,7 +3632,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/fonts/SourceSans3VF-Upright.ttf.woff2",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\fonts\\SourceSans3VF-Upright.ttf.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3669,7 +3669,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/Radzen.Blazor.hhkbx76gqu.js",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\Radzen.Blazor.js",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\Radzen.Blazor.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3714,7 +3714,7 @@
     },
     {
       "Route": "_content/Radzen.Blazor/Radzen.Blazor.js",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\Radzen.Blazor.js",
+      "AssetFile": "C:\\Users\\bielg\\.nuget\\packages\\radzen.blazor\\5.9.8\\staticwebassets\\Radzen.Blazor.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3751,7 +3751,7 @@
     },
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\app.css",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3772,7 +3772,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 17:20:19 GMT"
+          "Value": "Sat, 15 Feb 2025 12:32:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3788,7 +3788,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\app.css",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3809,7 +3809,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 17:20:19 GMT"
+          "Value": "Sat, 15 Feb 2025 12:32:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3832,8 +3832,8 @@
       ]
     },
     {
-      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3842,7 +3842,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "162726"
         },
         {
           "Name": "Content-Type",
@@ -3850,11 +3850,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 17:20:19 GMT"
+          "Value": "Sat, 15 Feb 2025 12:32:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3864,7 +3864,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
+          "Value": "6gzpyzhau4"
         },
         {
           "Name": "label",
@@ -3872,13 +3872,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
         }
       ]
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3887,7 +3887,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "162726"
         },
         {
           "Name": "Content-Type",
@@ -3895,11 +3895,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 17:20:19 GMT"
+          "Value": "Sat, 15 Feb 2025 12:32:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3909,13 +3909,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
         }
       ]
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3936,7 +3936,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 17:20:19 GMT"
+          "Value": "Sat, 15 Feb 2025 12:32:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3960,7 +3960,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3981,7 +3981,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 17:20:19 GMT"
+          "Value": "Sat, 15 Feb 2025 12:32:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3997,7 +3997,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4018,7 +4018,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 17:20:19 GMT"
+          "Value": "Sat, 15 Feb 2025 12:32:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4042,7 +4042,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4063,7 +4063,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 17:20:19 GMT"
+          "Value": "Sat, 15 Feb 2025 12:32:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4079,7 +4079,7 @@
     },
     {
       "Route": "teste.App.bundle.scp.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4100,7 +4100,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 18:37:01 GMT"
+          "Value": "Thu, 20 Feb 2025 01:22:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4116,7 +4116,7 @@
     },
     {
       "Route": "teste.App.sq9goyadte.bundle.scp.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4137,7 +4137,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 18:37:01 GMT"
+          "Value": "Thu, 20 Feb 2025 01:22:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4161,7 +4161,7 @@
     },
     {
       "Route": "teste.App.sq9goyadte.styles.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4182,7 +4182,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 18:37:01 GMT"
+          "Value": "Thu, 20 Feb 2025 01:22:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4206,7 +4206,7 @@
     },
     {
       "Route": "teste.App.styles.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
+      "AssetFile": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4227,7 +4227,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 18:37:01 GMT"
+          "Value": "Thu, 20 Feb 2025 01:22:23 GMT"
         },
         {
           "Name": "Cache-Control",

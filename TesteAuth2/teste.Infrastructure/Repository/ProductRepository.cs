@@ -22,9 +22,10 @@ public class ProductRepository : IProductRepository
         await _configMongoDb.ProductCollection.InsertOneAsync(product);
     }
 
-    public async Task DeleteAsync(string code)
+    public async Task DeleteAsync(int code)
     {
-        await _configMongoDb.ProductCollection.DeleteOneAsync(code);
+        var filter = Builders<Product>.Filter.Eq(p => p.Code, code);
+        await _configMongoDb.ProductCollection.DeleteOneAsync(filter);
     }
 
     public  Task<List<Product>> GetAllProductsAsync()
@@ -40,12 +41,12 @@ public class ProductRepository : IProductRepository
             }).ToListAsync();
     }
 
-    public  Task<Product> GetByCodeAsync(string code)
+    public  Task<Product> GetByCodeAsync(int code)
     {
         return _configMongoDb.ProductCollection.Find(c => c.Code == code).FirstOrDefaultAsync();
     }
 
-    public async Task UpdateAsync(string code, Product product)
+    public async Task UpdateAsync(int code, Product product)
     {
        var filter = Builders<Product>.Filter.Eq(p => p.Code, code);
         var update = Builders<Product>.Update
