@@ -37,7 +37,8 @@ public class ProductRepository : IProductRepository
                 NameProduct = p.NameProduct,
                 Price = p.Price,
                 CodBarras = p.CodBarras,
-                Active = p.Active
+                Active = p.Active,
+                ImageUrl = p.ImageUrl
             }).ToListAsync();
     }
 

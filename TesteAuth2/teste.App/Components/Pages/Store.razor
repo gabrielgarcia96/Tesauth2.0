@@ -1,0 +1,42 @@
+﻿@page "/store"
+
+@using teste.App.Security
+@using teste.Application.Interfaces
+@using teste.Domain.Models
+
+@inject IProductService ProductService
+@inject CustomAuthProvider CustomAuth
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    @foreach (var product in ListProduct)
+    {
+        <div style="width: 230px; padding: 15px; text-align: center;
+                    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+                    border-radius: 8px; background: white;">
+            <img src="data:image/png;base64,@product.ImageUrl"
+                 alt="@product.NameProduct"
+                 style="width: 100%; height: 140px; object-fit: contain; border-radius: 5px;" />
+            <h3 style="font-size: 16px; margin: 10px 0;">@product.NameProduct</h3>
+            <p style="color: #333;"><strong>R$ @product.Price.ToString("F2")</strong></p>
+            <RadzenButton Text="Adicionar ao Carrinho"
+                          Click="() => AddToCart(product)"
+                          Style="background: #007bff; color: white;
+                                 width: 100%; border-radius: 5px; padding: 8px 0;" />
+        </div>
+    }
+</div>
+
+@code {
+    private List<Product> ListProduct = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CustomAuth.InitializeAuthState();
+        ListProduct = await ProductService.GetAllProductsAsync();
+    }
+
+    private void AddToCart(Product product)
+    {
+        // CartService.AddToCart(product);
+    }
+}

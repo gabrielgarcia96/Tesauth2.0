@@ -599,23 +599,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bielg\\.nuget\\packages\\": {},
+    "C:\\Users\\gabriel.garcia\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj",
       "projectName": "teste.Domain",
-      "projectPath": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj",
-      "packagesPath": "C:\\Users\\bielg\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\obj\\",
+      "projectPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\teste.Domain.csproj",
+      "packagesPath": "C:\\Users\\gabriel.garcia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\bielg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabriel.garcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -640,7 +640,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -669,7 +669,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

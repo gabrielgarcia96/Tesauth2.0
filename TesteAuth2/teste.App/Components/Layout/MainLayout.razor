@@ -2,15 +2,27 @@
 @using teste.App.Security
 @inherits LayoutComponentBase
 @inject CustomAuthProvider AuthProvider
+@inject NavigationManager Navigation
 
 <RadzenComponents @rendermode="InteractiveServer" />
 
 <CascadingAuthenticationState>
 	<RadzenLayout>
 		<RadzenHeader>
-			<RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="0">
-				<RadzenSidebarToggle Click="@(() => sidebar1Expanded = !sidebar1Expanded)" />
-				<RadzenLabel Text="Header" />
+			<RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.SpaceBetween" Style="width: 100%; padding: 0 16px;">
+
+				<RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="8px">
+					<RadzenSidebarToggle Click="@(() => sidebar1Expanded = !sidebar1Expanded)" />
+					<RadzenLabel Text="Header" />
+				</RadzenStack>
+				<AuthorizeView>
+					<Authorized>
+						<RadzenButton Text="Logout" Click="AuthProvider.Logout" />
+					</Authorized>
+					<NotAuthorized>
+						<RadzenButton Text="Login" Click="LoginPage" />
+					</NotAuthorized>
+				</AuthorizeView>
 			</RadzenStack>
 		</RadzenHeader>
 		<RadzenSidebar @bind-Expanded="@sidebar1Expanded">
@@ -20,13 +32,13 @@
 						@if (context.User.IsInRole("Admin") || context.User.IsInRole("Manager") || context.User.IsInRole("User"))
 						{
 							<RadzenPanelMenuItem Text="Dashboard" Icon="account_box" Path="dashboard" />
-							<RadzenPanelMenuItem Text="Products" Icon="account_box" Path="products" />
-							
+							<RadzenPanelMenuItem Text="Products" Icon="inventory_2" Path="products" />
+							<RadzenPanelMenuItem Text="Store" Icon="store" Path="store" />
 						}
 					</Authorized>
 					<NotAuthorized>
 						<RadzenPanelMenuItem Text="Home" Icon="home" Path="" />
-						<RadzenPanelMenuItem Text="Login" Icon="account_box" Path="login" />
+						<RadzenPanelMenuItem Text="Store" Icon="store" Path="store" />
 					</NotAuthorized>
 				</AuthorizeView>
 			</RadzenPanelMenu>
@@ -55,5 +67,9 @@
 			await AuthProvider.InitializeAuthState();
 			StateHasChanged();
 		}
+	}
+
+	public void LoginPage(){
+		Navigation.NavigateTo("/login");
 	}
 }

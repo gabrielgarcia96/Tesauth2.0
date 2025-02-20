@@ -25,7 +25,7 @@
         <EditForm Model="Product" FormName="FormProduct" OnSubmit="@(isEditing ? UpdateProduct : HandleProduct)">
             <div style="margin-bottom: 12px;">
                 <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Code:</RadzenText>
-                <RadzenNumeric class="fieldNumeric" @bind-Value="Product.Code" ShowUpDown="false" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" Disabled="@isEditing" />
+                <RadzenNumeric class="fieldNumeric" @bind-Value="Product.Code" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;"  />
             </div>
             <div style="margin-bottom: 12px;">
                 <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Name:</RadzenText>
@@ -36,9 +36,25 @@
                 <RadzenNumeric @bind-Value="Product.Price" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
             </div>
             <div style="margin-bottom: 12px;">
+                <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Barcode:</RadzenText>
+                <RadzenNumeric @bind-Value="Product.CodBarras" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+            </div>
+            <div style="margin-bottom: 12px;">
                 <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Active:</RadzenText>
                 <RadzenCheckBox @bind-Value="Product.Active" Name="CheckBox1" style="margin-top: 5px;" />
             </div>
+
+            <div style="margin-bottom: 12px;">
+                <RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Product Image:</RadzenText>
+                <RadzenUpload Change="@(async (UploadChangeEventArgs args) => await OnFileUpload(args))" />
+            </div>
+
+            @if (!string.IsNullOrEmpty(Product.ImageUrl))
+            {
+                <div style="margin-top: 10px;">
+                    <img src="@Product.ImageUrl" alt="Uploaded Image" style="max-width: 100%; border-radius: 4px; border: 1px solid #ddd;" />
+                </div>
+            }
 
             <div style="margin-top: 30px">
                 <RadzenButton ButtonType="ButtonType.Submit" Text="@submitButtonText" ButtonStyle="ButtonStyle.Primary" />
@@ -51,11 +67,15 @@
 
 <RadzenDataGrid PageSize="5" AllowPaging="true" AllowSorting="true" Data="@ListProduct" ColumnWidth="400px">
     <Columns>
-        <RadzenDataGridColumn Property="Code" Title="Code" Width="150px" />
-        <RadzenDataGridColumn Property="NameProduct" Title="Name" Width="250px" />
-        <RadzenDataGridColumn Property="Price" Title="Price" Width="250px" />
-        <RadzenDataGridColumn Property="CodBarras" Title="Code " Width="250px" />
-        <RadzenDataGridColumn Property="Active" Title="Status" Width="250px" />
+        <RadzenDataGridColumn  Property="Code" Title="Code" Width="50px" />
+        <RadzenDataGridColumn Property="NameProduct" Title="Name" Width="100px" />
+        <RadzenDataGridColumn Property="Price" Title="Price" Width="100px">
+            <Template Context="data">
+                R$ @(data.Price.ToString("N2") ?? "0,00")
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn Property="CodBarras" Title="Barcode" Width="100px" />
+        <RadzenDataGridColumn Property="Active" Title="Status" Width="100px" />
 
         <RadzenDataGridColumn Title="Actions" Width="200px">
             <Template Context="product">
@@ -132,7 +152,8 @@
                 NameProduct = product.NameProduct,
                 Price = product.Price,
                 Active = product.Active,
-                CodBarras = product.CodBarras
+                CodBarras = product.CodBarras,
+                ImageUrl = product.ImageUrl
             };
 
         showProductForm = true;
@@ -164,5 +185,34 @@
         await ProductService.DeleteAsync(code);
         ListProduct = await ProductService.GetAllProductsAsync();
         notification.Notify(Radzen.NotificationSeverity.Success, "Product Deleted!");
+    }
+
+    private async Task OnFileUpload(UploadChangeEventArgs args)
+    {
+        try
+        {
+            var file = args.Files.FirstOrDefault();
+            if (file != null)
+            {
+                long maxSize = 5 * 1024 * 1024;
+                if (file.Size > maxSize)
+                {
+                    notification.Notify(Radzen.NotificationSeverity.Error, "Erro", "O arquivo excede o tamanho máximo permitido (5 MB).");
+                    return;
+                }
+
+                using var stream = new MemoryStream();
+                await file.OpenReadStream().CopyToAsync(stream);
+                var imageBytes = stream.ToArray();
+                Product.ImageUrl = Convert.ToBase64String(imageBytes);
+
+                notification.Notify(Radzen.NotificationSeverity.Success, "Imagem carregada com sucesso!");
+            }
+        }
+        catch (Exception ex)
+        {
+            notification.Notify(Radzen.NotificationSeverity.Error, "Erro ao carregar imagem!");
+            Console.WriteLine(ex);
+        }
     }
 }

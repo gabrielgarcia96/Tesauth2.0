@@ -18,6 +18,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 builder.Services.AddAuthorizationCore();
 
+
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
