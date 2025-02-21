@@ -1,7 +1,5 @@
 ﻿@page "/products"
 
-@attribute [Authorize]
-
 @using Blazored.LocalStorage
 @using System.Security.Claims
 @using teste.Domain.Models
@@ -65,7 +63,7 @@
 
 <br />
 
-<RadzenDataGrid PageSize="5" AllowPaging="true" AllowSorting="true" Data="@ListProduct" ColumnWidth="400px">
+<RadzenDataGrid PageSize="10" AllowPaging="true" AllowSorting="true" Data="@ListProduct" ColumnWidth="400px">
     <Columns>
         <RadzenDataGridColumn  Property="Code" Title="Code" Width="50px" />
         <RadzenDataGridColumn Property="NameProduct" Title="Name" Width="100px" />
@@ -98,8 +96,15 @@
 
     protected override async Task OnInitializedAsync()
     {
-        await CustomAuth.InitializeAuthState();
+        
         ListProduct = await ProductService.GetAllProductsAsync();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(firstRender){
+        await CustomAuth.InitializeAuthState();
+        }
     }
 
 
