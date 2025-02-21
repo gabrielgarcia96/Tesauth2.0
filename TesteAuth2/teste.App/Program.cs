@@ -1,5 +1,6 @@
 using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 using Microsoft.Extensions.DependencyInjection;
 using Radzen;
 using teste.App.Components;
@@ -25,6 +26,8 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddRadzenComponents();
 
 // Services and Repositorys
+builder.Services.AddScoped<CartService>();
+//builder.Services.AddScoped<ProtectedLocalStorage>();
 builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();

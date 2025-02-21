@@ -1,5 +1,4 @@
 ﻿@page "/dashboard"
-@attribute [Authorize]
 
 @using Blazored.LocalStorage
 @using System.Security.Claims
@@ -42,10 +41,13 @@
 
     private string value = "";
 
-    protected override async Task OnInitializedAsync()
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        await CustomAuth.InitializeAuthState();
-        Users = await AccountService.GetAllUsersAsync();
+        if (firstRender)
+        {
+            await CustomAuth.InitializeAuthState();
+            Users = await AccountService.GetAllUsersAsync();
+        }
     }
 
     private void showListUser()

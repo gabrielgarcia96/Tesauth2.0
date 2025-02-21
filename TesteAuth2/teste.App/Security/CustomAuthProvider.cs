@@ -63,9 +63,7 @@ namespace teste.App.Security
             await _localStorage.SetItemAsync("username", username);
             await _localStorage.SetItemAsync("role", role.ToString());
 
-            // 🔹 Aguarda a persistência no LocalStorage antes de notificar mudanças
             await Task.Delay(100);
-
             NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(_principal)));
         }
 
@@ -75,6 +73,7 @@ namespace teste.App.Security
             
             await _localStorage.RemoveItemAsync("username");
             await _localStorage.RemoveItemAsync("role");
+            await _localStorage.RemoveItemAsync("cart");
 
             _principal = new ClaimsPrincipal(new ClaimsIdentity());
 

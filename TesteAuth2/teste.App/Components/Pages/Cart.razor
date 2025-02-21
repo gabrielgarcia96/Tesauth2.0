@@ -1,0 +1,45 @@
+﻿@page "/cart"
+@using teste.Domain.Models
+
+@inject CartService CartService
+
+<h3>Carrinho de Compras</h3>
+
+@if (_cart.Any())
+{
+    <ul>
+        @foreach (var item in _cart)
+        {
+            <li>
+                @item.Product.NameProduct - @item.Quantity x @item.Product.Price.ToString("C")
+                <RadzenButton Text="Remover" Click="() => RemoveFromCart(item.Product)"
+                              Style="background: red; color: white; padding: 5px; border-radius: 5px;" />
+            </li>
+        }
+    </ul>
+
+    <div>
+        <strong>Total: @CartService.GetTotalPrice().ToString("C")</strong>
+    </div>
+}
+else
+{
+    <p>Seu carrinho está vazio.</p>
+}
+
+@code {
+    private List<CartItem> _cart = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _cart = await CartService.GetCartItems();
+        StateHasChanged();
+    }
+
+    private async Task RemoveFromCart(Product product)
+    {
+        await CartService.RemoveFromCart(product);
+        _cart = await CartService.GetCartItems();
+        StateHasChanged();
+    }
+}

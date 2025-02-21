@@ -1,8 +1,12 @@
 ﻿﻿﻿﻿@using Microsoft.AspNetCore.Components.Authorization
 @using teste.App.Security
+@using teste.Application.Services
+
 @inherits LayoutComponentBase
 @inject CustomAuthProvider AuthProvider
 @inject NavigationManager Navigation
+@inject CartService CartService
+
 
 <RadzenComponents @rendermode="InteractiveServer" />
 
@@ -13,11 +17,31 @@
 
 				<RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="8px">
 					<RadzenSidebarToggle Click="@(() => sidebar1Expanded = !sidebar1Expanded)" />
-					<RadzenLabel Text="Header" />
+					<RadzenLabel Text="Store" />
 				</RadzenStack>
 				<AuthorizeView>
 					<Authorized>
-						<RadzenButton Text="Logout" Click="AuthProvider.Logout" />
+						<div style="margin-left: 75%">
+							<RadzenLink Icon="shopping_cart" Path="cart">
+								@if (CartService.GetCartItemCount() > 0)
+								{
+									<span style="background: red; color: white; border-radius: 40%;
+                         padding: 2px 8px; font-size: 12px; margin-left: 5px;">
+										@CartService.GetCartItemCount()
+									</span>
+								}
+							</RadzenLink>
+						</div>
+							<RadzenMenu>
+							<ChildContent>
+								<RadzenMenuItem Text="Perfil" Icon="account_circle">
+									<RadzenMenuItem Text="Dashboard" Path="dashboard"></RadzenMenuItem>
+									<RadzenMenuItem Text="Products" Path="products"></RadzenMenuItem>
+									<RadzenMenuItem Text="My cart" Path="cart" />
+									<RadzenMenuItem Text="Logout" Click="AuthProvider.Logout"></RadzenMenuItem>
+								</RadzenMenuItem>
+							</ChildContent>
+						</RadzenMenu>
 					</Authorized>
 					<NotAuthorized>
 						<RadzenButton Text="Login" Click="LoginPage" />
@@ -65,11 +89,17 @@
 		if (firstRender)
 		{
 			await AuthProvider.InitializeAuthState();
-			StateHasChanged();
+			CartService.OnChange += StateHasChanged;
+			// StateHasChanged();
 		}
 	}
 
 	public void LoginPage(){
 		Navigation.NavigateTo("/login");
+	}
+
+	public void Dispose()
+	{
+		CartService.OnChange -= StateHasChanged;
 	}
 }
