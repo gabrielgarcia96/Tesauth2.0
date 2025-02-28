@@ -10,4 +10,5 @@ public interface IAccountService
     Task<User> GetEmailAsync(string email);
     Task<LoginDto> ValidadeUserAsync(string username, string password);
     Task<List<User>> GetAllUsersAsync();
+    Task UpdateUser(string username , User user);
 }

@@ -21,27 +21,42 @@
 				</RadzenStack>
 				<AuthorizeView>
 					<Authorized>
-						<div style="margin-left: 75%">
-							<RadzenLink Icon="shopping_cart" Path="cart">
-								@if (CartService.GetCartItemCount() > 0)
-								{
-									<span style="background: red; color: white; border-radius: 40%;
+						@if(context.User.IsInRole("Admin") || context.User.IsInRole("Manager") || context.User.IsInRole("User")){
+							<div style="margin-left: 75%">
+								<RadzenLink Icon="shopping_cart" Path="cart">
+									@if (CartService.GetCartItemCount() > 0)
+									{
+										<span style="background: red; color: white; border-radius: 40%;
                          padding: 2px 8px; font-size: 12px; margin-left: 5px;">
-										@CartService.GetCartItemCount()
-									</span>
-								}
-							</RadzenLink>
-						</div>
+											@CartService.GetCartItemCount()
+										</span>
+									}
+								</RadzenLink>
+							</div>
+						}
+						@if(context.User.IsInRole("Admin") || context.User.IsInRole("Manager")){
 							<RadzenMenu>
-							<ChildContent>
-								<RadzenMenuItem Text="Perfil" Icon="account_circle">
-									<RadzenMenuItem Text="Dashboard" Path="dashboard"></RadzenMenuItem>
-									<RadzenMenuItem Text="Products" Path="products"></RadzenMenuItem>
-									<RadzenMenuItem Text="My cart" Path="cart" />
-									<RadzenMenuItem Text="Logout" Click="AuthProvider.Logout"></RadzenMenuItem>
-								</RadzenMenuItem>
-							</ChildContent>
-						</RadzenMenu>
+								<ChildContent>
+									<RadzenMenuItem Text="Perfil" Icon="account_circle">
+										<RadzenMenuItem Text="Dashboard" Path="dashboard"></RadzenMenuItem>
+										<RadzenMenuItem Text="Products" Path="products"></RadzenMenuItem>
+										<RadzenMenuItem Text="My cart" Path="cart" />
+										<RadzenMenuItem Text="Logout" Click="AuthProvider.Logout"></RadzenMenuItem>
+									</RadzenMenuItem>
+								</ChildContent>
+							</RadzenMenu>
+						}
+						@if (context.User.IsInRole("User"))
+						{
+							<RadzenMenu>
+								<ChildContent>
+									<RadzenMenuItem Text="Perfil" Icon="account_circle">
+										<RadzenMenuItem Text="My cart" Path="cart" />
+										<RadzenMenuItem Text="Logout" Click="AuthProvider.Logout"></RadzenMenuItem>
+									</RadzenMenuItem>
+								</ChildContent>
+							</RadzenMenu>
+						}
 					</Authorized>
 					<NotAuthorized>
 						<RadzenButton Text="Login" Click="LoginPage" />
@@ -53,16 +68,19 @@
 			<RadzenPanelMenu>
 				<AuthorizeView Roles="Admin, Manager, User">
 					<Authorized>
-						@if (context.User.IsInRole("Admin") || context.User.IsInRole("Manager") || context.User.IsInRole("User"))
+						@if (context.User.IsInRole("Admin") || context.User.IsInRole("Manager"))
 						{
 							<RadzenPanelMenuItem Text="Dashboard" Icon="account_box" Path="dashboard" />
 							<RadzenPanelMenuItem Text="Products" Icon="inventory_2" Path="products" />
 							<RadzenPanelMenuItem Text="Store" Icon="store" Path="store" />
 						}
+						@if(context.User.IsInRole("User")){
+							<RadzenPanelMenuItem Text="Home" Icon="home" Path="" />
+							<RadzenPanelMenuItem Text="Store" Icon="store" Path="store" />
+						}
 					</Authorized>
 					<NotAuthorized>
-						<RadzenPanelMenuItem Text="Home" Icon="home" Path="" />
-						<RadzenPanelMenuItem Text="Store" Icon="store" Path="store" />
+
 					</NotAuthorized>
 				</AuthorizeView>
 			</RadzenPanelMenu>
@@ -88,9 +106,9 @@
 	{
 		if (firstRender)
 		{
-			await AuthProvider.InitializeAuthState();
+			// await AuthProvider.InitializeAuthState();
+			// await AuthProvider.GetAuthenticationStateAsync();
 			CartService.OnChange += StateHasChanged;
-			// StateHasChanged();
 		}
 	}
 

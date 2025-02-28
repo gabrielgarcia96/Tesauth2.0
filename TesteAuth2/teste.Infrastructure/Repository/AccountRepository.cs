@@ -51,5 +51,17 @@ public class AccountRepository : IAccountRepository
             })
             .ToListAsync();
     }
-   
+
+    public async Task UpdateUser(string username, User user)
+    {
+        var filter = Builders<User>.Filter.Eq(u => u.Username, username);
+        var update = Builders<User>.Update
+             .Set(u => u.Username, user.Username)
+             .Set(u => u.Email, user.Email)
+             .Set(u => u.Password, user.Password)
+                .Set(u => u.Roles, user.Roles);
+
+        await _configMongoDb.UserCollection.UpdateOneAsync(filter, update);
+    }
+
 }

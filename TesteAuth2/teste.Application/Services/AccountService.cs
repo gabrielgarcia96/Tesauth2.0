@@ -92,4 +92,9 @@ public class AccountService : IAccountService
         return await _accountRepository.GetAllUsersAsync();
     }
 
+    public Task UpdateUser(string username, User user)
+    {
+       return _accountRepository.UpdateUser(username, user);
+    }
+   
 }

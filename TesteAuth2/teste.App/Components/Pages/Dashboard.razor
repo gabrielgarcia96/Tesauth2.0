@@ -5,6 +5,8 @@
 @using teste.Domain.Models
 @using teste.Application.Interfaces
 @using teste.App.Security
+@using teste.Domain.Models.Enums
+
 
 @inject CustomAuthProvider CustomAuth
 @inject ILocalStorageService LocalStorage
@@ -13,47 +15,122 @@
 @inject IAccountService AccountService
 
 <RadzenButton Click="showListUser" style="margin-right: 12px; padding: 10px 20px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;"
-              HoverStyle="background-color: #218838;">Lista de Usuários</RadzenButton>
+HoverStyle="background-color: #218838;">Lista de Usuários</RadzenButton>
 
+@if (showEditUser)
+{
+	<br />
+	<RadzenStack style="background-color: rgba(255,255,255,0.4); width: 40%; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" class="rz-p-12">
+		<EditForm Model="User" OnValidSubmit="UpdateUser">
+			<div style="margin-bottom: 12px;">
+				<RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Username:</RadzenText>
+				<RadzenTextBox @bind-Value="User.Username" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;"/>
+			</div>
+			<div style="margin-bottom: 12px;">
+				<RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Email:</RadzenText>
+				<RadzenTextBox @bind-Value="User.Email" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+			</div>
+			<div style="margin-bottom: 12px;">
+				<RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Password:</RadzenText>
+				<RadzenPassword @bind-Value="User.Password" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">Password:</RadzenPassword>
+			</div>
+			<div style="margin-bottom: 12px;">
+				<RadzenText Style="color: #333; font-size: 14px; font-weight: bold;">Role:</RadzenText>
+				<RadzenDropDown @bind-Value="User.Roles" Data="Roles" AllowClear="false" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;" />
+			</div>
+
+			<div style="margin-top: 30px">
+				<RadzenButton ButtonType="ButtonType.Submit" Text="Salvar" ButtonStyle="ButtonStyle.Primary" />
+				<RadzenButton Click="CancelEdit" Text="Cancelar" ButtonStyle="ButtonStyle.Secondary" Style="margin-left: 10px;" />
+			</div>
+		</EditForm>
+	</RadzenStack>
+}
 
 @if (showUserList)
 {
-    <br />
-    <RadzenDataGrid PageSize="5" AllowPaging="true" AllowSorting="true" Data="@Users" ColumnWidth="400px">
-        <Columns>
-            <RadzenDataGridColumn Property="Username" Title="Username" Width="150px" />
-            <RadzenDataGridColumn Property="Email" Title="Email" Width="250px" />
-            <RadzenDataGridColumn Title="Role" Width="250px">
-                <Template Context="user">
-                    @user.Roles.ToString()
-                </Template>
-            </RadzenDataGridColumn>
-        </Columns>
-    </RadzenDataGrid>
+
+	<br />
+	<RadzenDataGrid PageSize="5" AllowPaging="true" AllowSorting="true" Data="@Users" ColumnWidth="400px">
+		<Columns>
+			<RadzenDataGridColumn Property="Username" Title="Username" Width="150px" />
+			<RadzenDataGridColumn Property="Email" Title="Email" Width="250px" />
+			<RadzenDataGridColumn Title="Role" Width="250px">
+				<Template Context="user">
+					@user.Roles.ToString()
+				</Template>
+			</RadzenDataGridColumn>
+			<RadzenDataGridColumn Title="Actions" Width="200px">
+				<Template Context="user">
+					<RadzenButton Icon="edit" Text="Edit" Click="@(args => EditUser(user))" Style="margin-right: 10px;" />
+				</Template>
+			</RadzenDataGridColumn>
+		</Columns>
+	</RadzenDataGrid>
 }
 
 @code {
+	private User User = new();
+	private List<User> Users = new();
+	private List<Role> Roles = Enum.GetValues<Role>().ToList();
+	private bool showUserList = false;
+	private bool showEditUser = false;
+	private bool isAuthenticated = false;
 
-    private List<User> Users = new();
-    
-    private bool showUserList = false;
-    
+	protected override async Task OnInitializedAsync()
+	{
+		Users = await AccountService.GetAllUsersAsync();	
+	}
 
-    private string value = "";
+	private void showListUser()
+	{
+		showUserList = !showUserList;
+	}
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            await CustomAuth.InitializeAuthState();
-            Users = await AccountService.GetAllUsersAsync();
-        }
-    }
+	private void EditUser(User user)
+	{
+		User = new User
+			{
+				Username = user.Username,
+				Email = user.Email,
+				Password = string.Empty,
+				Roles = user.Roles
+			};
+		showEditUser = true;
+		StateHasChanged();
+	}
 
-    private void showListUser()
-    {
-        showUserList = !showUserList;
-    }
+	private async Task UpdateUser()
+	{
 
-    
+		try{
+			var existingUser = await AccountService.GetUserAsync(User.Username);
+
+			if(existingUser == null){
+				notification.Notify(Radzen.NotificationSeverity.Error, "User not found.");
+				return;
+			}
+
+			if(string.IsNullOrWhiteSpace(User.Password)){
+				User.Password = existingUser.Password;
+			}
+			else{
+				User.Password = BCrypt.Net.BCrypt.HashPassword(User.Password);
+			}
+
+			await AccountService.UpdateUser(User.Username, User);
+
+			showEditUser = false;
+			notification.Notify(Radzen.NotificationSeverity.Success, "User update successfully");
+		}catch(Exception ex){
+			Console.WriteLine($"Error, {ex}");
+		}
+
+		
+	}
+
+	private void CancelEdit()
+	{
+		showEditUser = false;
+	}
 }
