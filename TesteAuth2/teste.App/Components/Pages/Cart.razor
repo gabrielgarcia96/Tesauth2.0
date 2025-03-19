@@ -8,12 +8,17 @@
 @if (_cart.Any())
 {
     <ul>
+
         @foreach (var item in _cart)
         {
             <li>
-                @item.Product.NameProduct - @item.Quantity x @item.Product.Price.ToString("C")
+                @item.Product.NameProduct - @item.Quantity x @item.Product.Price.ToString("C") - Total Item: R$ @(item.Quantity * item.Product.Price)
+
+                <div class="rz-p-12 rz-text-align-center" style="width: 180px;">
+                    <RadzenNumeric @bind-Value="item.Quantity" Change="@( (int valor) => UpdateQuantity(item, valor) )" />
+                </div>
                 <RadzenButton Text="Remover" Click="() => RemoveFromCart(item.Product)"
-                              Style="background: red; color: white; padding: 5px; border-radius: 5px;" />
+                Style="background: red; color: white; padding: 5px; border-radius: 5px;" />
             </li>
         }
     </ul>
@@ -42,4 +47,17 @@ else
         _cart = await CartService.GetCartItems();
         StateHasChanged();
     }
+
+    private async Task UpdateQuantity(CartItem item, int newQuantity)
+    {
+        item.Quantity = newQuantity;
+
+        if (item.Quantity <= 0)
+        {
+            await RemoveFromCart(item.Product);
+        }
+    }
+
+   
+
 }
