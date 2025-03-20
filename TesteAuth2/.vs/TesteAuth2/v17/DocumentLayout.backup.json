@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.app\\components\\pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|solutionrelative:teste.app\\components\\pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.app\\components\\pages\\card.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|solutionrelative:teste.app\\components\\pages\\card.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A353CE02-680C-4080-88B7-7F76BAE8B35B}|teste.Domain\\teste.Domain.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.domain\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A353CE02-680C-4080-88B7-7F76BAE8B35B}|teste.Domain\\teste.Domain.csproj|solutionrelative:teste.domain\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.app\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|solutionrelative:teste.app\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.app\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|solutionrelative:teste.app\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.app\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|solutionrelative:teste.app\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.app\\components\\pages\\store.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|solutionrelative:teste.app\\components\\pages\\store.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.app\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|solutionrelative:teste.app\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|c:\\users\\gabriel.garcia\\source\\github\\tesauth2.0\\testeauth2\\teste.app\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4257D23-BCA3-47DE-8C6D-777966B09C80}|teste.App\\teste.App.csproj|solutionrelative:teste.app\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "teste.Domain\\Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.Domain\\Models\\CartItem.cs",
-              "RelativeToolTip": "teste.Domain\\Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:58:13.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Cart.razor",
-              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Cart.razor",
-              "RelativeDocumentMoniker": "teste.App\\Components\\Pages\\Cart.razor",
-              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Cart.razor",
-              "RelativeToolTip": "teste.App\\Components\\Pages\\Cart.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwA4AAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T14:13:35.849Z",
+              "Title": "Card.razor.css",
+              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Card.razor.css",
+              "RelativeDocumentMoniker": "teste.App\\Components\\Pages\\Card.razor.css",
+              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Card.razor.css",
+              "RelativeToolTip": "teste.App\\Components\\Pages\\Card.razor.css",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-20T17:25:13.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dashboard.razor",
-              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Dashboard.razor",
-              "RelativeDocumentMoniker": "teste.App\\Components\\Pages\\Dashboard.razor",
-              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Dashboard.razor",
-              "RelativeToolTip": "teste.App\\Components\\Pages\\Dashboard.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\App.razor",
+              "RelativeDocumentMoniker": "teste.App\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\App.razor",
+              "RelativeToolTip": "teste.App\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T13:26:07.796Z",
+              "WhenOpened": "2025-03-20T17:22:56.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Store.razor",
-              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Store.razor",
-              "RelativeDocumentMoniker": "teste.App\\Components\\Pages\\Store.razor",
-              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Store.razor",
-              "RelativeToolTip": "teste.App\\Components\\Pages\\Store.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "teste.App\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\_Imports.razor",
+              "RelativeToolTip": "teste.App\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T11:46:17.572Z",
+              "WhenOpened": "2025-03-20T17:18:41.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Products.razor",
-              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Products.razor",
-              "RelativeDocumentMoniker": "teste.App\\Components\\Pages\\Products.razor",
-              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Pages\\Products.razor",
-              "RelativeToolTip": "teste.App\\Components\\Pages\\Products.razor",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAMkAAAAvAAAAAAAAAA==",
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "teste.App\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "teste.App\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-28T17:40:18.667Z",
+              "WhenOpened": "2025-03-20T13:45:50.44Z",
               "EditorCaption": ""
             }
           ]

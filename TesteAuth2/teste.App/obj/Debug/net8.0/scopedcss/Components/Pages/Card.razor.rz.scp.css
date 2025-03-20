@@ -1,0 +1,54 @@
+    .cartao-container[b-6ne3lt5nzw]
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.cartao-card[b-6ne3lt5nzw] {
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    text-align: center;
+}
+
+.cartao-header[b-6ne3lt5nzw] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+    .cartao-header h3[b-6ne3lt5nzw] {
+        margin-left: 10px;
+        color: #333;
+        font-size: 18px;
+    }
+
+.input-group[b-6ne3lt5nzw] {
+    margin-bottom: 12px;
+}
+
+.cartao-row[b-6ne3lt5nzw] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-small[b-6ne3lt5nzw] {
+    width: 48%;
+}
+
+.botao-salvar[b-6ne3lt5nzw] {
+    color: black !important;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

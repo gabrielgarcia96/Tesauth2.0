@@ -28,7 +28,6 @@
                 <div>
                     <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Username</RadzenText>
                     <RadzenTextBox @bind-Value="registerDto.Username" Style="width: 100%" aria-label="Default TextBox" />
-
                 </div>
 
                 <div>
@@ -67,7 +66,7 @@
     public async Task HandleRegister()
     {
         try{
-            var existUser = await AccountService.GetUserAsync(registerDto.Username);
+            var existUser = await AccountService.GetUserAsync(registerDto.Username.ToLower());
             var existEmail = await AccountService.GetEmailAsync(registerDto.Email);
 
             if (existUser != null)

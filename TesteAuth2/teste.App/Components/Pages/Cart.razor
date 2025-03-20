@@ -12,6 +12,9 @@
         @foreach (var item in _cart)
         {
             <li>
+                <img src="data:image/png;base64,@product.ImageUrl"
+                alt="@product.NameProduct"
+                style="width: 100%; height: 140px; object-fit: contain; border-radius: 5px;" />
                 @item.Product.NameProduct - @item.Quantity x @item.Product.Price.ToString("C") - Total Item: R$ @(item.Quantity * item.Product.Price)
 
                 <div class="rz-p-12 rz-text-align-center" style="width: 180px;">
@@ -33,6 +36,7 @@ else
 }
 
 @code {
+    private Product product = new();
     private List<CartItem> _cart = new();
 
     protected override async Task OnInitializedAsync()

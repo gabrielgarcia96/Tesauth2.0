@@ -1,0 +1,56 @@
+﻿@page "/card"
+
+@using Radzen
+
+<div class="cartao-container">
+    <RadzenCard Class="cartao-card">
+        <ChildContent>
+            <div class="cartao-header">
+                <RadzenIcon Icon="credit_card" Style="font-size: 40px; color: #4CAF50;" />
+                <h3>Adicionar Cartão</h3>
+            </div>
+
+            <RadzenTemplateForm TItem="CartaoModel" Submit="SalvarCartao">
+                <div class="input-group">
+                    <RadzenTextBox @bind-Value="cartao.NumeroCartao" Placeholder="Número do Cartão" Style="width:100%" />
+                    <RadzenRequiredValidator Component="NumeroCartao" Text="Informe o número do cartão" />
+                </div>
+
+                <div class="input-group">
+                    <RadzenTextBox @bind-Value="cartao.NomeTitular" Placeholder="Nome do Titular" Style="width:100%" />
+                    <RadzenRequiredValidator Component="NomeTitular" Text="Informe o nome do titular" />
+                </div>
+
+                <div class="cartao-row">
+                    <div class="input-small">
+                        <RadzenTextBox @bind-Value="cartao.DataValidade" Placeholder="MM/AA" Style="width:100%" />
+                        <RadzenRequiredValidator Component="DataValidade" Text="Informe a validade" />
+                    </div>
+                    <div class="input-small">
+                        <RadzenTextBox @bind-Value="cartao.CVV" Placeholder="CVV" Style="width:100%" />
+                        <RadzenRequiredValidator Component="CVV" Text="Informe o CVV" />
+                    </div>
+                </div>
+
+                <RadzenButton Text="Adicionar Cartão" Type="Submit" Class="botao-salvar" />
+            </RadzenTemplateForm>
+        </ChildContent>
+    </RadzenCard>
+</div>
+
+@code {
+    CartaoModel cartao = new CartaoModel();
+
+    void SalvarCartao()
+    {
+        Console.WriteLine($"Cartão Salvo: {cartao.NumeroCartao}");
+    }
+
+    public class CartaoModel
+    {
+        public string NumeroCartao { get; set; }
+        public string NomeTitular { get; set; }
+        public string DataValidade { get; set; }
+        public string CVV { get; set; }
+    }
+}

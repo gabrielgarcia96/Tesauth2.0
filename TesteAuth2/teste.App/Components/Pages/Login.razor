@@ -77,7 +77,7 @@
 	public async Task HandleLogin()
 	{
 		try{
-			var user = await AccountService.ValidadeUserAsync(Logindto.Username, Logindto.Password);
+			var user = await AccountService.ValidadeUserAsync(Logindto.Username.ToLower(), Logindto.Password);
 
 			if(user != null){
 

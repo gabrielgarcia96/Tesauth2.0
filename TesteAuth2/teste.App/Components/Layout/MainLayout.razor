@@ -59,7 +59,20 @@
 						}
 					</Authorized>
 					<NotAuthorized>
+						<div style="margin-left: 75%">
+							<RadzenLink Icon="shopping_cart" Path="cart">
+								@if (CartService.GetCartItemCount() > 0)
+								{
+									<span style="background: red; color: white; border-radius: 40%;
+                         padding: 2px 8px; font-size: 12px; margin-left: 5px;">
+										@CartService.GetCartItemCount()
+									</span>
+								}
+							</RadzenLink>
+						</div>
+						
 						<RadzenButton Text="Login" Click="LoginPage" />
+
 					</NotAuthorized>
 				</AuthorizeView>
 			</RadzenStack>
@@ -80,7 +93,8 @@
 						}
 					</Authorized>
 					<NotAuthorized>
-
+						<RadzenPanelMenuItem Text="Home" Icon="home" Path="" />
+						<RadzenPanelMenuItem Text="Store" Icon="store" Path="store" />
 					</NotAuthorized>
 				</AuthorizeView>
 			</RadzenPanelMenu>

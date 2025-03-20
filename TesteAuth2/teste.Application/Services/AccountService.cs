@@ -45,7 +45,7 @@ public class AccountService : IAccountService
 
         var newUser = new User
         {
-            Username = registerDto.Username,
+            Username = registerDto.Username.ToLower(),
             Email = registerDto.Email,
             Password = BCrypt.Net.BCrypt.HashPassword(registerDto.Password),
             Roles =  Role.User
