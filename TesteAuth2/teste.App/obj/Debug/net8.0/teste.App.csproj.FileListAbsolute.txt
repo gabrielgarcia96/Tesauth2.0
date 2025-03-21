@@ -41,7 +41,6 @@ C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\net8.0\teste.App.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\net8.0\teste.App.sourcelink.json
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
-C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\net8.0\scopedcss\Components\Pages\Card.razor.rz.scp.css
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\net8.0\scopedcss\bundle\teste.App.styles.css
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\net8.0\scopedcss\projectbundle\teste.App.bundle.scp.css
 C:\Users\gabriel.garcia\source\Github\Tesauth2.0\TesteAuth2\teste.App\obj\Debug\net8.0\staticwebassets.build.json

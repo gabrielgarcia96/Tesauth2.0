@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T3LhLoQeqhyohvobY5SjK1Bmb2bo38TrjoHAxHj0lqM=",
+  "Hash": "jFXy2i2s/z3MIpRtCzfIHIng6G8JqZ1CQ05Nd+dHcBU=",
   "Source": "teste.App",
   "BasePath": "_content/teste.App",
   "Mode": "Default",
@@ -766,8 +766,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "a2wtgplp25",
-      "Integrity": "kuvf8hMAQDB0WeaMAwchcxchXLaMdbx1ZgWBAshy4yc=",
+      "Fingerprint": "sq9goyadte",
+      "Integrity": "VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css"
@@ -787,8 +787,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "a2wtgplp25",
-      "Integrity": "kuvf8hMAQDB0WeaMAwchcxchXLaMdbx1ZgWBAshy4yc=",
+      "Fingerprint": "sq9goyadte",
+      "Integrity": "VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css"
@@ -4078,96 +4078,6 @@
       ]
     },
     {
-      "Route": "teste.App.a2wtgplp25.bundle.scp.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3283"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kuvf8hMAQDB0WeaMAwchcxchXLaMdbx1ZgWBAshy4yc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 17:25:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a2wtgplp25"
-        },
-        {
-          "Name": "label",
-          "Value": "teste.App.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kuvf8hMAQDB0WeaMAwchcxchXLaMdbx1ZgWBAshy4yc="
-        }
-      ]
-    },
-    {
-      "Route": "teste.App.a2wtgplp25.styles.css",
-      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3283"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kuvf8hMAQDB0WeaMAwchcxchXLaMdbx1ZgWBAshy4yc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 17:25:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a2wtgplp25"
-        },
-        {
-          "Name": "label",
-          "Value": "teste.App.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kuvf8hMAQDB0WeaMAwchcxchXLaMdbx1ZgWBAshy4yc="
-        }
-      ]
-    },
-    {
       "Route": "teste.App.bundle.scp.css",
       "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
       "Selectors": [],
@@ -4178,7 +4088,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3283"
+          "Value": "2184"
         },
         {
           "Name": "Content-Type",
@@ -4186,11 +4096,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kuvf8hMAQDB0WeaMAwchcxchXLaMdbx1ZgWBAshy4yc=\""
+          "Value": "\"VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 17:25:32 GMT"
+          "Value": "Fri, 21 Mar 2025 16:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4200,7 +4110,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kuvf8hMAQDB0WeaMAwchcxchXLaMdbx1ZgWBAshy4yc="
+          "Value": "sha256-VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY="
+        }
+      ]
+    },
+    {
+      "Route": "teste.App.sq9goyadte.bundle.scp.css",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\teste.App.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 16:51:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sq9goyadte"
+        },
+        {
+          "Name": "label",
+          "Value": "teste.App.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY="
+        }
+      ]
+    },
+    {
+      "Route": "teste.App.sq9goyadte.styles.css",
+      "AssetFile": "C:\\Users\\gabriel.garcia\\source\\Github\\Tesauth2.0\\TesteAuth2\\teste.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\teste.App.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 16:51:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sq9goyadte"
+        },
+        {
+          "Name": "label",
+          "Value": "teste.App.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY="
         }
       ]
     },
@@ -4215,7 +4215,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3283"
+          "Value": "2184"
         },
         {
           "Name": "Content-Type",
@@ -4223,11 +4223,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kuvf8hMAQDB0WeaMAwchcxchXLaMdbx1ZgWBAshy4yc=\""
+          "Value": "\"VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 17:25:32 GMT"
+          "Value": "Fri, 21 Mar 2025 16:51:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4237,7 +4237,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kuvf8hMAQDB0WeaMAwchcxchXLaMdbx1ZgWBAshy4yc="
+          "Value": "sha256-VFWBrZnXHdllyLRqkqAb09FPIVsChs7BcrYVDSj24ZY="
         }
       ]
     }

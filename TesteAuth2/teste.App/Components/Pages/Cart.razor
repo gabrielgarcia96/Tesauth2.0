@@ -7,61 +7,70 @@
 
 @if (_cart.Any())
 {
-    <ul>
+	<ul>
 
-        @foreach (var item in _cart)
-        {
-            <li>
-                <img src="data:image/png;base64,@product.ImageUrl"
-                alt="@product.NameProduct"
-                style="width: 100%; height: 140px; object-fit: contain; border-radius: 5px;" />
-                @item.Product.NameProduct - @item.Quantity x @item.Product.Price.ToString("C") - Total Item: R$ @(item.Quantity * item.Product.Price)
+		@foreach (var item in _cart)
+		{
+			<li>
+				<div style="display: grid; grid-template-columns: 1fr 80px 100px; align-items: center; gap: 10px; width: 100%; padding: 5px 0;">
+					<div style="display: flex; align-items: center; gap: 10px;">
+						<img src="data:image/png;base64,@item.Product.ImageUrl"
+							 alt="@item.Product.NameProduct"
+							 style="width: 60px; height: 60px; object-fit: contain; border-radius: 5px;" />
+						<span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+							@item.Product.NameProduct - @item.Quantity x @item.Product.Price.ToString("C") -
+							Total Item: R$ @(item.Quantity * item.Product.Price)
+						</span>
+					</div>
 
-                <div class="rz-p-12 rz-text-align-center" style="width: 180px;">
-                    <RadzenNumeric @bind-Value="item.Quantity" Change="@( (int valor) => UpdateQuantity(item, valor) )" />
-                </div>
-                <RadzenButton Text="Remover" Click="() => RemoveFromCart(item.Product)"
-                Style="background: red; color: white; padding: 5px; border-radius: 5px;" />
-            </li>
-        }
-    </ul>
+					<RadzenNumeric @bind-Value="item.Quantity" Change="@( (int valor) => UpdateQuantity(item, valor) )"
+								   Style="width: 80px; height: 40px;" />
+					<RadzenButton Text="Remover" Click="() => RemoveFromCart(item.Product)"
+								  Style="background: red; color: white; padding: 3px 8px; border-radius: 3px; font-size: 14px; height: 40px;" />
+				</div>
+			</li>
 
-    <div>
-        <strong>Total: @CartService.GetTotalPrice().ToString("C")</strong>
-    </div>
+
+
+		}
+	</ul>
+
+	<div>
+		<strong>Total: @CartService.GetTotalPrice().ToString("C")</strong>
+	</div>
 }
 else
 {
-    <p>Seu carrinho está vazio.</p>
+	<p>Seu carrinho está vazio.</p>
 }
 
 @code {
-    private Product product = new();
-    private List<CartItem> _cart = new();
+	private Product product = new();
+	private List<CartItem> _cart = new();
 
-    protected override async Task OnInitializedAsync()
-    {
-        _cart = await CartService.GetCartItems();
-        StateHasChanged();
-    }
+	protected override async Task OnInitializedAsync()
+	{
+		_cart = await CartService.GetCartItems();
+		StateHasChanged();
+	}
 
-    private async Task RemoveFromCart(Product product)
-    {
-        await CartService.RemoveFromCart(product);
-        _cart = await CartService.GetCartItems();
-        StateHasChanged();
-    }
+	private async Task RemoveFromCart(Product product)
+	{
+		await CartService.RemoveFromCart(product);
+		_cart = await CartService.GetCartItems();
+		StateHasChanged();
+	}
 
-    private async Task UpdateQuantity(CartItem item, int newQuantity)
-    {
-        item.Quantity = newQuantity;
+	private async Task UpdateQuantity(CartItem item, int newQuantity)
+	{
+		item.Quantity = newQuantity;
 
-        if (item.Quantity <= 0)
-        {
-            await RemoveFromCart(item.Product);
-        }
-    }
+		if (item.Quantity <= 0)
+		{
+			await RemoveFromCart(item.Product);
+		}
+	}
 
-   
+
 
 }
